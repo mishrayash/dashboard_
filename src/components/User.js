@@ -61,7 +61,7 @@ const User = ({ data, setData, search, page, select, setSelect }) => {
 
   return (
     <div>
-      <table className="w-full table-auto">
+      <table className="md:w-[1100px] md:mx-12 table-auto">
         <thead className="border rounded-t-2xl">
           <tr>
             <th>

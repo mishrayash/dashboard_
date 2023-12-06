@@ -41,11 +41,11 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="mx-14 mt-6 ">
+    <div className="mt-6 md:mx-40">
       <div className="text-2xl font-medium text-center text-gray-400">
         Dashboard
       </div>
-      <div className="mx-[170px] pr-3">
+      <div className="md:mx-[110px] md:pr-3 ">
         <Search
           search={search}
           setSearch={setSearch}
@@ -53,7 +53,7 @@ const Dashboard = () => {
         />
       </div>
       {data && data.length > 0 ? (
-        <div className="mt-6 mx-[170px] text-sm">
+        <div className="mt-6 text-sm mx-2 ">
           <User
             data={filteredData}
             setData={setData}
@@ -66,7 +66,7 @@ const Dashboard = () => {
       ) : (
         <div>Loading...</div>
       )}
-      <footer className="flex flex-row justify-between mx-[170px] mt-2 pr-12">
+      <footer className="flex flex-row justify-between md:mx-[110px] mt-2 md:pr-14 md:w-auto">
         <p className="text-slate-400 font-semibold">{`${select.length} member(s) of ${filteredData?.length} selected`}</p>
         <Pagination
           page={page}
