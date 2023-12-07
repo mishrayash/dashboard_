@@ -2,6 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Link : https://dashboard-one-livid.vercel.app/
+
+## Key Features Added:
+  Search Filter: Implemented a search filter on any field to enhance user experience.
+  
+  Bulk User Deletion: Users can now delete all selected rows in the table for greater efficiency.
+  
+  In-Place User Information Editing: Users can edit user information directly within the table for a seamless experience.
+  
+  Individual User Deletion: Added functionality to delete a specific user from the table.
+  
+  Pagination: Implemented pagination for better navigation through large datasets.
+
+
+## Technologies Used:
+  HTML and Tailwind CSS for styling.
+  
+  JavaScript for functionality.
+  
+  React for building the web application.
+
 ## Available Scripts
 
 In the project directory, you can run:
